@@ -1,0 +1,107 @@
+body {
+    background: linear-gradient(90deg, #5e8ed5, #b6fbff);
+
+}
+
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#time{
+    height: 30px;
+    font-size: 20px;
+}
+#task{
+    font-size: 20px;
+}
+#add{
+    background-color: blue;
+    color: white;
+    width: 28rem;
+    padding: 4px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.container {
+    
+    padding: 10px;
+    width: 30rem;
+    height: fit-content;
+    border: 2px solid black;
+    margin: auto;
+    font-size: 25px;
+    padding-top: 9px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.table{
+    margin-top: 5rem;
+}
+table{
+    width: 50%;
+    border-collapse: collapse;
+    margin: auto;
+  
+    table-layout: fixed;
+}
+table,th,td{
+    border-top: 1px solid; 
+    word-wrap: break-word;
+    text-align: center;
+}
+thead th{
+    width: 3%;
+}
+th,td{
+    padding: 8px;
+    text-decoration: none;
+    
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #e7f2f4;
+  }
+tbody tr:nth-child(even) {
+    background-color: rgb(238, 232, 232);
+  }
+
+ 
+.caption{
+    padding: 3px;
+     margin-top: 5rem;
+    letter-spacing: 4px;
+    font-size: 25px;
+    background-color: aquamarine;
+    width: max-content;
+    text-align: center;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+thead{
+    background-color: rgb(248, 249, 249);
+}
+.incompleted{
+    text-decoration: none   ;
+}
+.completed{
+    text-decoration: line-through;
+}
+#clock{
+    background-color:#e6f2f2;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 20rem;
+    padding: 2px;
+    text-align: center;
+    margin: auto;
+}
+#Success{
+    background-color: rgb(17, 95, 122);
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+
+  

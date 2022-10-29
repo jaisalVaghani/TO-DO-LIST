@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='todolist.css'>
+   
+</head>
+<body>
+   <div id="message"></div>
+   <h1>CREATE YOUR TO-DO LIST</h1>
+   <p class="clock" id="clock"></p> <br><br>
+   <div class="container">
+      Time: <br>
+      <input type="time" id="time"><br><br>
+      Task:  <br>
+      <textarea placeholder="task" rows="5" cols="40" id="task"></textarea>
+      <button id="add">ADD TASK</button>
+   </div>
+   
+   <div class="table">
+      <h2 class="caption">YOUR TASK FOR TODAY</h2> <br><br>
+      <table id="table">
+          
+      </table>
+      
+   </div>
+</body>
+<script src='todolist.js'></script>
+</html>
